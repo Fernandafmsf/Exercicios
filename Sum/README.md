@@ -8,5 +8,7 @@
 solution(param1, param2) = 3.</p>
 
 <h2>What i learned doing this exercise</h2>
-<p>At first, I was declaring the variables after the declaration of the function, and the function wasnt being able to avoid incorrect number inputs (like numbers bigger than 1000) and to recognize that negative numbers were inside the range accepted by the variables </p>
+<p>At first, I was declaring the variables after the declaration of the function, and the function wasnt being able to avoid incorrect number inputs (like numbers bigger than 1000) and to recognize that negative numbers were inside the range accepted by the variables.</p>
 <p>When I declarated the variables before the function, this problem was solved</p>
+<br>
+<br>
