@@ -2,6 +2,5 @@
 
 <p>Neste repositório guardarei todos os exercícios que eu fizer trabalhando com lógica, tanto na linguagem C, quanto em Javascript. </p>
 
-<br>
 <p>Os exercícios podem ter sido pegos do site CodeSignal e Beecrowd ou do livro "Lógica de programação e algoritmos com javascript", do Edécio Fernando.</p>
 <br>
