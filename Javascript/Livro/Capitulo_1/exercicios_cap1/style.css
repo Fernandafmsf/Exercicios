@@ -1,0 +1,31 @@
+body *{
+  font-family: inter;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, p{
+  text-align: center;
+  margin-top: 2%;
+}
+li{
+  list-style: none;
+  margin: 5% 0;
+  text-align: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2%;
+  border-radius: 5px;
+  border: 1px solid blue;
+
+}
+
+a:hover{
+  cursor: pointer;
+  background-color: beige;
+}
