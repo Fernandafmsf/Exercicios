@@ -12,7 +12,12 @@
   <script>
     //Elaborar um programa para uma pizzaria que leia o valor total de uma conta, quantos clientes vão pagar e quanto fica para cada 
 
-    
+    const valorConta = Number(prompt('Qual o valor da conta?'));
+    const numeroPessoas = Number(prompt('Quantos clientes vão pagar essa conta?'));
+    const resultadoConta = valorConta/numeroPessoas;
+
+    alert (`Se ${numeroPessoas} pessoas vão pagar a conta, cada uma deve ${resultadoConta.toFixed(2)}`);
+
   </script>
 </body>
 

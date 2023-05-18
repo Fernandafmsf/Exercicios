@@ -14,6 +14,13 @@
 
 <script>
   //ler um preço de um produto e informar as opções de pagamento. calculare informar o valor para pagamento a vista com 10% de desconto e o valor em 3x
+
+  const valor = Number(prompt('Informe o valor do produto:'));
+  const aVista = valor - (valor * 0.10);
+  const parcelado = valor /3;
+
+  alert(`Valor: ${valor.toFixed(2)} A vista: ${aVista.toFixed(2)} Parcelado: ${parcelado.toFixed(2)}`);
+
 </script>
 
 </html>
