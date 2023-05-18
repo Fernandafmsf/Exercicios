@@ -5,17 +5,25 @@
 
 int main (void){
 
-  double A, B, media; 
+  float A, B, media; 
 
   printf("Digite a primeira nota:");
-  scanf("%lf", &A);
+  scanf("%f", &A);
 
   printf("Digite a segunda nota:");
-  scanf("%lf", &B);
+  scanf("%f", &B);
 
-  media=((A*3.5)+(B*7.5))/11;
+  if(A>10 || B>10){
+    printf("Voce digitou um numero maior que 10");
+    return 0;
+  } else{
+    
+    media = ((A * 3.5) + (B * 7.5)) / 11;
 
-  printf("Media = %.6lf", media);
+    printf("Media = %.6f", media);
 
-  return 0;
+    return 0;
+  }
+
+ 
 }
