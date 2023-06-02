@@ -8,18 +8,18 @@ void ft_div_mod(int a, int b, int *div, int *mod){
 }
 
 int main (void){
-  int numeroA;
-  int numeroB;
+  int a;
+  int b;
   int div;
   int mod;
 
-  numeroA=5;
-  numeroB=2;
+  a=5;
+  b=2;
 
 //Quando vamos informar uma variavel a função e essa variavel, na função, será um ponteiro, devemos colocar '&'
-  ft_div_mod(numeroA,numeroB, &div, &mod);
+  ft_div_mod(a,b, &div, &mod);
 
-  printf("Numero a: %d \nNumero b: %d \nDiv:%d Mod:%d", numeroA,numeroB,div, mod);
+  printf("Numero a: %d \nNumero b: %d \nDiv:%d Mod:%d", a,b,div, mod);
 
   return 0;
 }
