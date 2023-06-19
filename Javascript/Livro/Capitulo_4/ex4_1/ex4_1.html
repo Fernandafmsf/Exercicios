@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 4_1</title>
+</head>
+<body>
+  <h1>Programa situação do aluno</h1>
+
+  <form >
+    <p>Nome do aluno: 
+      <input type="text" id="inNome" required>
+    </p>
+
+    <p>1º nota: 
+      <input type="number" id="inPrimeiraNota" required min="0">
+    </p>
+
+    <p>2º nota: 
+      <input type="number" id="inSegundaNota" required min="0">
+    </p>
+
+    <input type="submit" value="Exibir média e situação">
+  </form>
+
+  <h3 class="outMedia"></h3>
+  <h4 class="outSituacao"></h4>
+
+  <script src="ex4_1.js"></script>
+  
+</body>
+</html>
