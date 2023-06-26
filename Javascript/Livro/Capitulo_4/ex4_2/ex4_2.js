@@ -8,15 +8,18 @@ form.addEventListener("submit", (e)=>{
   const altura = Number(form.inAltura.value);
   let pesoIdeal;
 
-  if (masculino==true){
+/*  if (masculino==true){
     pesoIdeal= 22 * Math.pow(altura,2);
 
   } else{
     pesoIdeal = 21 * Math.pow(altura,2);
 
   }
+  */
 
-  resp1.innerText = `${nome}: Seu peso ideal é: ${pesoIdeal.toFixed(3)}Kg`;
+  //utilizando operador ternari  const peso = masculino ? 22*Math.pow(altura,2): 21*Math.pow(altura,2);
+
+  resp1.innerText = `${nome}: Seu peso ideal é: ${peso.toFixed(3)}Kg`;
 
   e.preventDefault();
 })
