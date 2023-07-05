@@ -1,0 +1,1 @@
+//Elaborar um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor. Se a velocidade for inferior ou igual à permitida, exibir "Sem multa", se a velocidade fr até 20% maior, "Multa leve". Se a velocidade for maior que 20% da velocidade permitida, "Multa grave". 

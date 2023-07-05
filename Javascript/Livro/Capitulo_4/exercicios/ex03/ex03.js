@@ -1,0 +1,1 @@
+//Elaborar um programa que simule um parquímetro, que deve ler o valor de moedas depositado em um terminal de estacionamento rotativo. O programa deve informar o tempo de permanência do veículo no local e o troco (se existir). Se o valor for inferior ao tempo mínimo, exibir a mensagem "Valor insuficiente"

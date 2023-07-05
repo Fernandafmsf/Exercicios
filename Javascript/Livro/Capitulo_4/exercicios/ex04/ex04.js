@@ -1,0 +1,1 @@
+//Elaborar um programa que leia 3 dados e verifique se eles podem ou não formar um triângulo. Para formar um, um dos lados não pode ser maior que a soma dos outros dois. Se puder formar um, exiba também qual o tipo (equilatero - 3 lados iguais, isósceles - 2 lados, escaleno - todos os lados diferentes )
