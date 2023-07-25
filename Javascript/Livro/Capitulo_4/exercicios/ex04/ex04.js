@@ -5,23 +5,25 @@ const resp1=document.querySelector(".outResposta");
 const resp2=document.querySelector(".outNomeTriangulo");
 
 form.addEventListener("submit", (e)=>{
-  e.preventDefault();
+ 
   const ladoA = Number(form.inLadoA.value);
   const ladoB=Number(form.inLadoB.value);
   const ladoC = Number(form.inLadoC.value);
-
+  let tipoTriangulo;
  
   if(ladoA+ladoB>ladoC && ladoA+ladoC>ladoB && ladoB+ladoC>ladoA){
     resp1.innerText=`É um triangulo`;
-
+  
+      tipoTriangulo= ladoA == ladoB && ladoB == ladoC ? "Equilátero"
+        :ladoA == ladoB && ladoB != ladoC ? "Isósceles": "Escaleno";
+         resp2.innerText = `Tipo: ${tipoTriangulo}`;
   }else{
     resp1.innerText=`Não é um triângulo.`;
+    resp2.innerText=``;
   }
-/*
-   if(ladoA==ladoB && ladoB==ladoC){
-      resp2.innerText=`Equilátero`; 
-    }else if(ladoA==ladoB&&ladoB!=ladoC ){
-      resp2.innerText=`Isósceles`;
-    }
-    */
+
+   e.preventDefault();
+
+ 
+ 
 })
